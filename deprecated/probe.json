@@ -1,0 +1,14 @@
+{
+    "version": "0.0.3",
+    "description": "使用 YAML 和 JQ 简化集成测试",
+    "homepage": "https://github.com/abhimanyu003/probe",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/abhimanyu003/probe/blob/main/LICENSE"
+    },
+    "url": "https://github.com/abhimanyu003/probe/releases/download/v0.0.3/probe_0.0.3_windows_amd64.tar.gz",
+    "bin": [
+        "probe.exe"
+    ],
+    "hash": "57dfc4be1ad9eafcf7ec67079faef8a0359d1f08549f6db8bea3ee72fd9df910"
+}
