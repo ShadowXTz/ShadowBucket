@@ -1,8 +1,9 @@
 on:
   workflow_dispatch:
   schedule:
-    # run every 4 hours
-    - cron: '20 */4 * * *'
+    # 在每天的北京时间 8:00和20:00 执行，一天执行一次
+    - cron: '0 0 * * *'
+    - cron: '0 12 * * *'
 name: Excavator
 jobs:
   excavate:
