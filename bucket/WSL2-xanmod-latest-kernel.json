@@ -8,7 +8,6 @@
     },
     "url": "https://github.com/Locietta/xanmod-kernel-WSL2/releases/download/6.8.6-locietta-WSL2-xanmod1.1/bzImage",
     "post_install": "mv $dir/bzImage $dir/WSL2-xanmod-latest-kernel",
-    "filename": "bzImagex",
     "hash": "09ad8e276280b9778b71a477c3927299870fb45afc89e74575eee52692d39db9",
     "checkver": {
         "script": [
