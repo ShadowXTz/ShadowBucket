@@ -16,7 +16,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://api.github.com/repos/cxasm/notepad--/releases/latest",
+        "url": "https://github.com/cxasm/notepad--/releases/latest",
         "regex": "Notepad--[vV]?(\\d+\\.\\d+\\.\\d+)"
     },
     "autoupdate": {

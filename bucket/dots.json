@@ -4,7 +4,7 @@
     "homepage": "https://h3y.studio/dots/",
     "license": "Unknown",
     "url": "https://github.com/nor0x/Dots/releases/download/2.0.2/Dots-2.0.2-win-x64.zip",
-    "hash": "216d40dd2d01a3e8c19f97de17b32aee56d83d6eb89e180125bc62d95886cd37",
+    "hash": "9b43754f6d70426aeb377df372ba2350c2a4821e3938b5ee38f01079bd58eaac",
     "bin": "dots.exe",
     "checkver": {
         "github": "https://github.com/nor0x/Dots",
