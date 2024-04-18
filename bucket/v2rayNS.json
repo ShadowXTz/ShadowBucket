@@ -2,7 +2,7 @@
     "version": "6.42",
     "description": "V2Ray的Windows的GUI客户端，支持Xray核心和v2fly核心等，包含所有Core文件的独立包，不需要下载安装[Microsoft .NET Desktop Runtime]",
     "homepage": "https://github.com/2dust/v2rayN",
-    "license": "GPL-3.0-only",
+    "license": "GPL-3.0",
     "depends": "xray",
     "suggest": {
         ".NET Desktop Runtime": "extras/windowsdesktop-runtime-lts",

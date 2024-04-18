@@ -2,10 +2,7 @@
     "version": "0.2.2",
     "description": "A CLI/TUI which makes it easy to launch vscode projects, with a focus on dev containers.",
     "homepage": "https://github.com/michidk/vscli/",
-    "license": {
-        "identifier": "MIT",
-        "url": "https://github.com/michidk/vscli/?tab=MIT-1-ov-file"
-    },
+    "license": "MIT",
     "url": "https://github.com/michidk/vscli/releases/download/v0.2.0/vscli-x86_64-pc-windows-msvc.zip",
     "hash": "7f2f7477766f1333f6726306be0afc7135580f09a536c73058b85703ef532ae8",
     "extract_dir": "vscli-x86_64-pc-windows-msvc",
