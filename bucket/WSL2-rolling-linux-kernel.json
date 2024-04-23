@@ -5,7 +5,7 @@
     "license": "GPL-2.0",
     "url": "https://github.com/Nevuly/WSL2-Linux-Kernel-Rolling/releases/download/linux-wsl-stable-6.8.7/bzImage-x86_64",
     "hash": "4f338149d5d310ff47d8fc69e2391cb8a2d7907b981794be0ea42c7c2883cd4e",
-    "post_install": "mv $dir/bzImage-x86_64.bzimage-x86_64 $dir/rolling-linux-kernel",
+    "post_install": "mv $dir/bzImage-x86_64 $dir/rolling-linux-kernel",
     "checkver": {
         "url": "https://github.com/Nevuly/WSL2-Linux-Kernel-Rolling/releases/latest",
         "regex": "linux-wsl-stable-([\\d.]+)"
