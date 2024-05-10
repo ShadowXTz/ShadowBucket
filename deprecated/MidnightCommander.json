@@ -1,0 +1,30 @@
+{
+    "version": "4.8.31",
+    "description": "GNU Midnight Commander 是一个可视化文件管理器，根据 GNU 通用公共许可证获得许可，因此有资格成为自由软件。它是一个功能丰富的全屏文本模式应用程序，允许您复制、移动和删除文件和整个目录树，搜索文件并在子 shell 中运行命令。包括内部查看器和编辑器。",
+    "homepage": "http://midnight-commander.org/",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/adamyg/mcwin32/releases/download/4.8.31.230/mcwin32-build230-x64-setup.exe",
+            "hash": "ca5c4158e529d2072b21d6232c3055e4a4e00751d99d89051038ae3d4084c433"
+        },
+        "32bit": {
+            "url": "https://github.com/adamyg/mcwin32/releases/download/4.8.31.230/mcwin32-build230-setup.exe",
+            "hash": "f8fa084f228bcb87f162d19cda985282bc0f2d1c042d254964d1c49a4bfc4dd0"
+        }
+    },
+    "checkver": {
+        "url": "https://github.com/adamyg/mcwin32",
+        "regex": "(?<version>([\\d.]+)) - build (?<build>(\\d+))"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/adamyg/mcwin32/releases/download/$matchVersion.$matchBuild/mcwin32-build$matchBuild-x64-setup.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/adamyg/mcwin32/releases/download/$matchVersion.$matchBuild/mcwin32-build$matchBuild-setup.exe"
+            }
+        }
+    }
+}
