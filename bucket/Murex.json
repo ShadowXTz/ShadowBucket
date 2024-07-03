@@ -4,11 +4,11 @@
     "homepage": "https://murex.rocks/",
     "license": "GPL-2.0",
     "url": "https://nojs.murex.rocks/bin/latest/murex-windows-amd64.exe.zip",
-    "hash": "8ab5dbe53ac28d45400dac1be692f32e15bf3baf0f1741e8321ce00e00049a24",
+    "hash": "5ecb5a46f181666554797ce6d22bd77db44f9f21caee5d43fdf5bd6d72cc9c93",
     "extract_dir": "bin",
     "bin": [
         [
-            "murex-6-windows-amd64.exe",
+            "murex-6.1.0-windows-amd64.exe",
             "murex"
         ]
     ],
