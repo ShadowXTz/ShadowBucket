@@ -13,7 +13,8 @@
     ],
     "checkver": {
         "url": "https://github.com/yaklang/yaklang/releases/latest",
-        "regex": "Release v([0-9.]+)(\\-sp[0-9]+)?"
+
+        "regex": "Release v([0-9.]+)(\\-(rc|beta|sp|alpha)[0-9]+)?"
     },
     "autoupdate": {
         "url": "https://github.com/yaklang/yaklang/releases/download/v$version/yak_windows_amd64.exe"
