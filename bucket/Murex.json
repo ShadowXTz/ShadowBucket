@@ -1,10 +1,10 @@
 {
-    "version": "6.1.8300",
+    "version": "6.2.3000",
     "description": "Murex是一个更智能的shell和脚本环境，具有专为可用性、安全性和生产力而设计的高级功能（例如更智能的 DevOps 工具",
     "homepage": "https://murex.rocks/",
     "license": "GPL-2.0",
     "url": "https://nojs.murex.rocks/bin/latest/murex-windows-amd64.exe.zip",
-    "hash": "5ecb5a46f181666554797ce6d22bd77db44f9f21caee5d43fdf5bd6d72cc9c93",
+    "hash": "1aee38c0fe1b129020109cee3ef2ab66a6b59af1a2a7c6c9495e550203cd4e41",
     "extract_dir": "bin",
     "bin": [
         [
