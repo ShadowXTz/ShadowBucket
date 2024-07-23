@@ -6,9 +6,10 @@
     "url": "https://nojs.murex.rocks/bin/latest/murex-windows-amd64.exe.zip",
     "hash": "1aee38c0fe1b129020109cee3ef2ab66a6b59af1a2a7c6c9495e550203cd4e41",
     "extract_dir": "bin",
+    "pre_install": "mv $dir\\murex-* $dir\\murex-6.2.3000-windows-amd64.exe",
     "bin": [
         [
-            "murex-6.1-windows-amd64.exe",
+            "murex-6.2.3000-windows-amd64.exe",
             "murex"
         ]
     ],
@@ -17,6 +18,13 @@
         "regex": "v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://nojs.murex.rocks/bin/latest/murex-windows-amd64.exe.zip"
+        "url": "https://nojs.murex.rocks/bin/latest/murex-windows-amd64.exe.zip",
+        "post_install": "mv *-windows-amd64.exe murex-$version-windows-amd64.exe",
+        "bin": [
+            [
+                "murex-$version-windows-amd64.exe",
+                "murex"
+            ]
+        ]
     }
 }
