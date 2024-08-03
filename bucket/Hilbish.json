@@ -1,12 +1,12 @@
 {
-    "version": "2.3.0",
+    "version": "2.3.2",
     "description": "🌓 The Moon-powered shell! A comfy and extensible shell for Lua fans! 🌺 ✨",
     "homepage": "https://github.com/Rosettea/Hilbish",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Rosettea/Hilbish/releases/download/v2.3.0/hilbish-v2.3.0-windows-amd64.zip",
-            "hash": "md5:d2d858dc7f1997789dc595b93f7ff1df"
+            "url": "https://github.com/Rosettea/Hilbish/releases/download/v2.3.2/hilbish-v2.3.2-windows-amd64.zip",
+            "hash": "md5:2bf63fd0c7e2b94431bd2be0d77d0aee"
         }
     },
     "post_install": [
