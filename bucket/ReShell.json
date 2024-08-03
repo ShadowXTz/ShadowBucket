@@ -6,7 +6,7 @@
     "url": "https://github.com/ClementNerma/ReShell/releases/download/v0.1.0-1001/reshell-repl-x86_64-pc-windows-gnu.tgz",
     "hash": "ee645ba4c476c922a00f5870f7d008b4e2750e59d625b33b15f0ff8529b3f5e9",
     "bin": "reshell.exe",
-    "checkver": {   
+    "checkver": {
         "url": "https://github.com/ClementNerma/ReShell/releases/latest",
         "regex": "/releases/tag/(?:v|V)(([\\d.]+)(-[\\d.]+)?)"
     },
