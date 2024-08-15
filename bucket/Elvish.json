@@ -13,7 +13,11 @@
             "hash": "2fe227dbed39b67101997c5d01ab54156cc7814a5a4036c1a026f358ecee8917"
         }
     },
-    "pre_install": "Rename-Item \"$dir\\elvish-v$version.exe\" 'elvish.exe'",
+    "pre_install": [
+        "if (!(Test-Path \"$dir\\elvish.exe\")) {",
+        "   Rename-Item \"$dir\\elvish-v$version.exe\" 'elvish.exe'",
+        "}"
+    ],
     "bin": "elvish.exe",
     "checkver": {
         "url": "https://elv.sh/get/",
@@ -22,16 +26,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://mirrors.tuna.tsinghua.edu.cn/elvish/windows-amd64/elvish-v$version.zip",
-                "hash": {
-                    "url": "https://mirrors.tuna.tsinghua.edu.cn/elvish/windows-amd64/elvish-v$version.zip.sha256sum"
-                }
+                "url": "https://mirrors.tuna.tsinghua.edu.cn/elvish/windows-amd64/elvish-v$version.zip"
             },
             "32bit": {
-                "url": "https://mirrors.tuna.tsinghua.edu.cn/elvish/windows-386/elvish-v$version.zip",
-                "hash": {
-                    "url": "https://mirrors.tuna.tsinghua.edu.cn/elvish/windows-386/elvish-v$version.zip.sha256sum"
-                }
+                "url": "https://mirrors.tuna.tsinghua.edu.cn/elvish/windows-386/elvish-v$version.zip"
             }
         },
         "hash": {
