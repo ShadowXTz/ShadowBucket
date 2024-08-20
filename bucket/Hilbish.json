@@ -10,9 +10,18 @@
         }
     },
     "post_install": [
-        "Copy-Item -Path $dir\\.hilbishrc.lua -Destination $env:Appdata\\hilbish",
-        "Copy-Item -Path $dir\\nature -Recurse -Force -Destination $env:Appdata\\hilbish",
-        "Copy-Item -Path $dir\\libs -Recurse -Force -Destination $env:Appdata\\hilbish"
+        "if (!(Test-Path $env:Appdata\\hilbish)) {",
+        "   New-Item -ItemType Directory -Path $env:Appdata\\hilbish",
+        "}",
+        "if (!(Test-Path $env:Appdata\\hilbish\\.hilbishrc.lua)) {",
+        "   Copy-Item -Path $dir\\.hilbishrc.lua -Destination $env:Appdata\\hilbish",
+        "}",
+        "if (!(Test-Path $env:Appdata\\hilbish\\nature)) {",
+        "   Copy-Item -Path $dir\\nature -Recurse -Force -Destination $env:Appdata\\hilbish",
+        "}",
+        "if (!(Test-Path $env:Appdata\\hilbish\\libs)) {",
+        "   Copy-Item -Path $dir\\libs -Recurse -Force -Destination $env:Appdata\\hilbish",
+        "}"
     ],
     "bin": "hilbish.exe",
     "checkver": "github",
