@@ -1,0 +1,10 @@
+{
+    "hash": "c430bc35e54b24da0b76e95ecf2d71cb4178019a5c67af3f6bb5fae340bc36f2",
+    "version": "v1.2.0",
+    "description": "用 Rust 编写的 Windows 的 Nerdfetch 替代品",
+    "homepage": "https://github.com/pybash1/winnf",
+    "license": "MIT",
+    "url": "https://github.com/pybash1/winnf/releases/download/v1.2.0/WinNF.exe",
+    "bin": "winnf.exe",
+    "extract_dir": "winnf"
+}
