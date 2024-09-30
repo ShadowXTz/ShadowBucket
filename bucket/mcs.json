@@ -8,14 +8,14 @@
     "extract_dir": "mcs-0.7.1-windows-x86_64",
     "env_add_path": "bin",
     "checkver": {
-      "url": "https://github.com/mthmulders/mcs/releases/latest",
-      "re": "v([\\d.]+).zip"
+        "url": "https://github.com/mthmulders/mcs/releases/latest",
+        "re": "v([\\d.]+).zip"
     },
     "autoupdate": {
-      "url": "https://github.com/mthmulders/mcs/releases/download/v$version/mcs-$version-windows-x86_64.zip",
-      "extract_dir": "mcs-$version-windows-x86_64",
-      "hash": {
-        "url": "$url.sha256"
-      }
+        "url": "https://github.com/mthmulders/mcs/releases/download/v$version/mcs-$version-windows-x86_64.zip",
+        "extract_dir": "mcs-$version-windows-x86_64",
+        "hash": {
+            "url": "$url.sha256"
+        }
     }
-  }
+}
