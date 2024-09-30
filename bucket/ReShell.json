@@ -6,7 +6,7 @@
     "url": "https://github.com/ClementNerma/ReShell/releases/download/v0.1.0-1009/reshell-repl-x86_64-pc-windows-gnu.tgz",
     "hash": "35db124657ecae288cf10a19cf7a780ddb0e04023378dcf5060898ea462c286d",
     "bin": "reshell.exe",
-    "depends": ["busybox"],
+    "depends": "busybox",
     "checkver": {
         "url": "https://github.com/ClementNerma/ReShell/releases/latest",
         "regex": "/releases/tag/(?:v|V)(([\\d.]+)(-[\\d.]+)?)"
