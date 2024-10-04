@@ -1,0 +1,12 @@
+{
+    "version": "0.22.0",
+    "description": "一体化 AI CLI 工具，具有 Chat-REPL、Shell Assistant、RAG、AI 工具和代理，可访问 OpenAI、Claude、Gemini、Ollama、Groq 等。",
+    "homepage": "https://github.com/sigoden/aichat",
+    "license": "Apache-2.0",
+    "url": "https://github.com/sigoden/aichat/releases/download/v0.22.0/aichat-v0.22.0-x86_64-pc-windows-msvc.zip",
+    "hash": "af4bff7dffa760a8fb5a247767cc3e58c6b01d429bb6afbff3a5e257e097e242",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/sigoden/aichat/releases/download/v$version/aichat-v$version-x86_64-pc-windows-msvc.zip"
+    }
+}
