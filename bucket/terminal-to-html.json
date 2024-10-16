@@ -1,14 +1,14 @@
 {
-    "version": "3.16.2",
+    "version": "3.16.3",
     "description": "将任意 shell 输出（使用 ANSI）转换为精美呈现的 HTML",
     "homepage": "https://github.com/buildkite/terminal-to-html",
     "license": "MIT",
-    "url": "https://github.com/buildkite/terminal-to-html/releases/download/v3.16.2/terminal-to-html-3.16.2-windows-amd64.zip",
-    "hash": "3ce1c6a35bbcf75f5368534a38a8b4d064e6e7193605743b1147972d5d1e4937",
+    "url": "https://github.com/buildkite/terminal-to-html/releases/download/v3.16.3/terminal-to-html-3.16.3-windows-amd64.zip",
+    "hash": "858ea030b80dfec793c3282ec2836ca4e5e5bf8e4538479e4ffd84b2f5e143ac",
     "extract_dir": "bin",
     "bin": [
         [
-            "terminal-to-html-3.16.2-windows-amd64",
+            "terminal-to-html-3.16.3-windows-amd64",
             "terminal-to-html"
         ]
     ],
