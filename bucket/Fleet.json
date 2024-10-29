@@ -13,6 +13,17 @@
             "Fleet"
         ]
     ],
+    "post_install": [
+        "$linkPath        = Join-Path ([Environment]::GetFolderPath('Desktop')) 'Fleet.lnk'",
+        "$targetPath      = Join-Path $dir Fleet.exe",
+        "$link            = (New-Object -ComObject WScript.Shell).CreateShortcut($linkPath)",
+        "$link.TargetPath = $targetPath",
+        "$link.Save()"
+    ],
+    "pre_uninstall": [
+        "$linkPath = Join-Path ([Environment]::GetFolderPath('Desktop')) 'Fleet.lnk'",
+        "if (Test-Path $linkPath) { Remove-Item $linkPath }"
+    ],
     "checkver": {
         "url": "https://data.services.jetbrains.com/products/releases?code=FL&latest=true&type=preview",
         "jsonpath": "$.FL..version"
