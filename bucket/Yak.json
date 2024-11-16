@@ -1,10 +1,10 @@
 {
-    "version": "1.3.7-beta5",
+    "version": "1.3.7-beta6",
     "description": "Yak 是一门针对网络安全领域研发的易书写，易分发的高级计算机编程语言",
     "homepage": "https://www.yaklang.io/",
     "license": "AGPL-3.0",
-    "url": "https://github.com/yaklang/yaklang/releases/download/1.3.7-beta5/yak_windows_amd64.exe",
-    "hash": "924fd22dddb1fe2f41830cf184056bb3efbeb8a9077f2f31aea7cced0bbc16ae",
+    "url": "https://github.com/yaklang/yaklang/releases/download/1.3.7-beta6/yak_windows_amd64.exe",
+    "hash": "e699ff92463242eeb592f7711ebd09927faf5d4c068f9e6231d6ffa55b880701",
     "bin": [
         [
             "yak_windows_amd64.exe",
