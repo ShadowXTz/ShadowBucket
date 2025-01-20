@@ -1,10 +1,10 @@
 {
-    "version": "0.1.0-1194",
+    "version": "0.1.0-1204",
     "description": "面向未来的现代Shell",
     "homepage": "https://github.com/ClementNerma/ReShell",
     "license": "Apache-2.0",
-    "url": "https://github.com/ClementNerma/ReShell/releases/download/v0.1.0-1194/reshell-repl-x86_64-pc-windows-gnu.tgz",
-    "hash": "d82c9f6d7d4dfe76581997d1fa6490f81927106fcc91672279c8f6745615ba0e",
+    "url": "https://github.com/ClementNerma/ReShell/releases/download/v0.1.0-1204/reshell-repl-x86_64-pc-windows-gnu.tgz",
+    "hash": "05ff138deed2a22e09c29286b1598a278e94fcee1f1bc6b3be12778c05ad493b",
     "bin": "reshell.exe",
     "depends": "busybox",
     "checkver": {
