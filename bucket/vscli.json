@@ -1,5 +1,5 @@
 {
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "A CLI/TUI which makes it easy to launch vscode projects, with a focus on dev containers.",
     "homepage": "https://github.com/michidk/vscli/",
     "license": "MIT",
