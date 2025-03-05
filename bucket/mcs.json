@@ -9,7 +9,7 @@
     "env_add_path": "bin",
     "checkver": {
         "url": "https://github.com/mthmulders/mcs/releases/latest",
-        "re": "v([\\d.]+).zip"
+        "re": "Release v([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://github.com/mthmulders/mcs/releases/download/v$version/mcs-$version-windows-x86_64.zip",

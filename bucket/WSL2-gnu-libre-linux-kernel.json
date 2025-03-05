@@ -8,10 +8,11 @@
     "post_install": "mv $dir/vmlinuxv6.5.6-gnu $dir/gnu-libre-linux-kernel",
     "checkver": {
         "url": "https://api.github.com/repos/zhenruyan/WSL-libre-linux-kernel/releases/latest",
-        "jsonpath": "$..assets[2].browser_download_url",
-        "regex": "bin/(?<version>.+?)/vmlinuxv(?<tag>([\\d.]+))-gnu.zip"
+        "jsonpath": "$..assets",
+        "regex": "download/bin/(?<version>(v?[\\d.]+(-gnu)?(-[a-z0-9]+)?))/(?<tag>(vmlinuxv?[\\d.]+(-gnu)?))"
     },
     "autoupdate": {
-        "url": "https://github.com/zhenruyan/WSL-libre-linux-kernel/releases/download/bin/$matchVersion/vmlinuxv$matchTag-gnu.zip"
+        "url": "https://github.com/zhenruyan/WSL-libre-linux-kernel/releases/download/bin/$matchVersion/$matchTag",
+        "post_install": "mv $dir/$matchTag $dir/gnu-libre-linux-kernel"
     }
 }
