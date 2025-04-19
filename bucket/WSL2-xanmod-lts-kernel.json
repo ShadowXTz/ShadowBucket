@@ -5,7 +5,7 @@
     "license": "GPL-2.0",
     "url": "https://github.com/Locietta/xanmod-kernel-WSL2/releases/download/6.12.21-locietta-WSL2-xanmod1.1-lts/bzImage-x64v3",
     "hash": "c3cab812dc12ecb4c2758dd1902d4078bb354e793a622b91ceda8cb590dac107",
-    "post_install": "mv $dir/bzImage-x64v4 $dir/xanmod-lts-kernel",
+    "post_install": "mv $dir/bzImage-x64v3 $dir/xanmod-lts-kernel",
     "checkver": {
         "script": [
             "$LATEST = ((curl.exe -sL https://api.github.com/repos/Locietta/xanmod-kernel-WSL2/tags?per_page=60 | ConvertFrom-Json).name | Select-String 'lts')[0]",
