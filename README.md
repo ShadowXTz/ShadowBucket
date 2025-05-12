@@ -1,5 +1,9 @@
-# Shadow Bucket （包含个人常用的应用和工具的scoop bucket）
+# Shadow Bucket (A scoop bucket contains the individual's frequently used applications and tools.)
 
+<!-- Uncomment the following line after replacing placeholders -->
+<!-- [![Tests](https://github.com/<username>/<bucketname>/actions/workflows/ci.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/ci.yml) [![Excavator](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml) -->
+
+<!-- Template bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 
 ## How do I use this template?
 
@@ -19,14 +23,14 @@
    `bucket/<app-name>.json`.
 7. Commit and push changes.
 8. If you'd like your bucket to be indexed on `https://scoop.sh`, add the
-   topic `scoop-bucket` to your repository.
+   topic `scoop-bucket` to your repository. -->
 
 ## How do I install these manifests?
 
 After manifests have been committed and pushed, run the following:
 
 ```pwsh
-scoop bucket add shadow https://github.com/Shadow-XT/ShadowBucket
+scoop bucket add shadow https://github.com/ShadowXTz/ShadowBucket
 scoop install shadow/<manifestname>
 ```
 
