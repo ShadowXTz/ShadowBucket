@@ -1,11 +1,11 @@
 {
-    "version": "0.6.8",
+    "version": "0.6.9",
     "description": "一个跨平台和可扩展的版本管理器，支持 Java、Node.js、Flutter、.Net 等",
     "homepage": "https://github.com/version-fox/vfox",
     "license": "Apache-2.0",
-    "url": "https://github.com/version-fox/vfox/releases/download/v0.6.8/vfox_0.6.8_windows_x86_64.zip",
-    "hash": "64728253b34b28332a3bd490e77375d5791fa02a1e324e3e0cb72b64c76868f8",
-    "extract_dir": "vfox_0.6.8_windows_x86_64",
+    "url": "https://github.com/version-fox/vfox/releases/download/v0.6.9/vfox_0.6.9_windows_x86_64.zip",
+    "hash": "5f86e1e3727d9f56d86087416f8f1d9b6b8b24135321acd33d9a0498b0460f9b",
+    "extract_dir": "vfox_0.6.9_windows_x86_64",
     "bin": [
         [
             "vfox.exe",
