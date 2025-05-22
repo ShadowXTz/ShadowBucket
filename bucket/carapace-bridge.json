@@ -1,10 +1,10 @@
 {
-    "version": "1.2.9",
+    "version": "1.2.10",
     "description": "调用各种框架的补全，并为 carapace-bin 提供桥接操作。",
     "homepage": "https://github.com/rsteube/carapace-bridge",
     "license": "MIT",
-    "url": "https://github.com/rsteube/carapace-bridge/releases/download/v1.2.9/carapace-bridge_1.2.9_windows_amd64.zip",
-    "hash": "e4a2e9044cda94eb4b4bdada6917f35f3284d3ab5eac9be9dd3f677e0621c742",
+    "url": "https://github.com/rsteube/carapace-bridge/releases/download/v1.2.10/carapace-bridge_1.2.10_windows_amd64.zip",
+    "hash": "768c5d44e60bf409bb421cf0c07ef19c9a3db41202ca676b797212e25f704a8f",
     "bin": "carapace-bridge.exe",
     "checkver": "github",
     "autoupdate": {
