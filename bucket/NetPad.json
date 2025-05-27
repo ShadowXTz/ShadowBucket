@@ -1,10 +1,10 @@
 {
-    "version": "0.8.0",
+    "version": "0.9.0",
     "description": "跨平台 C# 编辑器和playground",
     "homepage": "https://github.com/tareqimbasher/NetPad",
     "license": "MIT",
-    "url": "https://github.com/tareqimbasher/NetPad/releases/download/v0.8.0/netpad-0.8.0-win-x64.zip",
-    "hash": "f9147f251a5a9ecf10fa65dc2ea91d6a77775ee98e24961b78aa80d9e0daa5b4",
+    "url": "https://github.com/tareqimbasher/NetPad/releases/download/v0.9.0/netpad-0.9.0-win-x64.zip",
+    "hash": "76f59931ae8b007fd9670ed74400487ea0dbf733919f727a5b8110b10ffd21a2",
     "bin": "NetPad.exe",
     "shortcuts": [
         [
