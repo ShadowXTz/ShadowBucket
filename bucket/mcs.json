@@ -1,11 +1,11 @@
 {
-    "version": "0.7.5",
+    "version": "0.7.6",
     "description": "从命令行搜索 Maven 中央存储库！",
     "homepage": "https://maarten.mulders.it/projects/mcs/",
     "license": "MIT",
-    "url": "https://github.com/mthmulders/mcs/releases/download/v0.7.5/mcs-0.7.5-windows-x86_64.zip",
-    "hash": "40481c82c54aadd412045a23a7cf4c3e3496d3bd762c53b95d48624618e1801c",
-    "extract_dir": "mcs-0.7.5-windows-x86_64",
+    "url": "https://github.com/mthmulders/mcs/releases/download/v0.7.6/mcs-0.7.6-windows-x86_64.zip",
+    "hash": "6a135b169b56c64158297f6be1f32785302bb513bd9c92067127699b35029c95",
+    "extract_dir": "mcs-0.7.6-windows-x86_64",
     "env_add_path": "bin",
     "checkver": {
         "url": "https://github.com/mthmulders/mcs/releases/latest",
