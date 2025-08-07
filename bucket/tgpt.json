@@ -1,10 +1,10 @@
 {
-    "version": "2.10.1",
+    "version": "2.11.0",
     "homepage": "https://github.com/aandrew-me/tgpt",
     "description": "tgpt 是一个跨平台命令行界面 (CLI) 工具，允许您在终端中使用 AI 聊天机器人，而无需 API 密钥。",
     "license": "GPL-3.0",
-    "url": "https://github.com/aandrew-me/tgpt/releases/download/v2.10.1/tgpt-amd64.exe",
-    "hash": "ed4068396c4b9966513a9d66e86b06dc617750520a2cbecf656076efa9586ad2",
+    "url": "https://github.com/aandrew-me/tgpt/releases/download/v2.11.0/tgpt-amd64.exe",
+    "hash": "3833025b8cb0d4d8cc77c6c12ffc1d3fef8850197ba9c8d753d21610f2a04ba5",
     "bin": [
         "tgpt-amd64.exe",
         [
