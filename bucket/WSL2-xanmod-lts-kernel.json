@@ -1,10 +1,10 @@
 {
-    "version": "6.12.44-1.1",
+    "version": "6.12.45-1.1",
     "description": "WSL2 的 Xanmod 内核，由 clang 构建，并启用了 ThinLTO",
     "homepage": "https://github.com/Locietta/xanmod-kernel-WSL2",
     "license": "GPL-2.0",
-    "url": "https://github.com/Locietta/xanmod-kernel-WSL2/releases/download/6.12.44-locietta-WSL2-xanmod1.1-lts/bzImage-x64v3",
-    "hash": "06c795c5a8b4c8a2784042602ea2b830dca78cbc51f532d3dfd56eb9a3cd458e",
+    "url": "https://github.com/Locietta/xanmod-kernel-WSL2/releases/download/6.12.45-locietta-WSL2-xanmod1.1-lts/bzImage-x64v3",
+    "hash": "21c7d3bd9cc5389a5abb73145846e878734bfaeefade2ee8e9535aadb5a68b16",
     "post_install": "mv $dir/bzImage-x64v3 $dir/xanmod-lts-kernel",
     "checkver": {
         "script": [
