@@ -1,13 +1,13 @@
 {
-    "version": "1.4.4",
+    "version": "1.4.5",
     "description": "ls 和 cd 的互动且时尚的替代品！",
     "homepage": "https://github.com/Jojo4GH/nav",
     "license": "MIT",
     "notes": "Please add  'Invoke-Expression (& nav --init powershell | Out-String)'  to the end of your PowerShell $PROFILE.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Jojo4GH/nav/releases/download/v1.4.4/nav-x86_64-pc-windows-gnu.zip",
-            "hash": "a641bb8d546fd8f3304fafe4039c166b98a96bc251ce3d65a758681592ce57ad"
+            "url": "https://github.com/Jojo4GH/nav/releases/download/v1.4.5/nav-x86_64-pc-windows-gnu.zip",
+            "hash": "e86e131e67916b821ea12745168a2df0259746e5b358743cb16b5026aa716bd5"
         }
     },
     "bin": "nav.exe",
