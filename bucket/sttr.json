@@ -1,10 +1,10 @@
 {
-    "version": "0.2.27",
+    "version": "0.2.28",
     "description": "sttr是命令行软件，可让您快速对字符串运行各种转换操作。",
     "homepage": "https://github.com/abhimanyu003/sttr",
     "license": "MIT",
-    "url": "https://github.com/abhimanyu003/sttr/releases/download/v0.2.27/sttr_Windows_x86_64.zip",
-    "hash": "9541a7070f77a4e35143dbde97ae3f87e4208eb86d7ef18a3c499ab6c3dbbf65",
+    "url": "https://github.com/abhimanyu003/sttr/releases/download/v0.2.28/sttr_Windows_x86_64.zip",
+    "hash": "0db1fd81d5842fa88e24bf7ff8c4feeeca84493663e3d77e79cb91f063d726ad",
     "bin": "sttr.exe",
     "checkver": "github",
     "autoupdate": {
