@@ -1,10 +1,10 @@
 {
-    "version": "1.4.1",
+    "version": "1.4.2",
     "description": "使用规范文件spec file（基于carapace）定义简单的补全",
     "homepage": "https://github.com/rsteube/carapace-spec",
     "license": "MIT",
-    "url": "https://github.com/rsteube/carapace-spec/releases/download/v1.4.1/carapace-spec_1.4.1_windows_amd64.zip",
-    "hash": "3ca9f23a6ce6d045625dee3aca3bcc721e962d9acb879749110903644aa444da",
+    "url": "https://github.com/rsteube/carapace-spec/releases/download/v1.4.2/carapace-spec_1.4.2_windows_amd64.zip",
+    "hash": "b9a9e39e962d8b3b4d701588f2ca82bbf1002ca51c4584b54a396a42599d9420",
     "bin": "carapace-spec.exe",
     "checkver": "github",
     "autoupdate": {
