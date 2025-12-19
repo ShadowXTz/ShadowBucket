@@ -1,10 +1,10 @@
 {
-    "version": "6.18.1",
+    "version": "6.18.2",
     "description": "适用于 Windows Subsystem for Linux （WSL2） 的滚动发布稳定内核",
     "homepage": "https://github.com/Nevuly/WSL2-Linux-Kernel-Rolling",
     "license": "GPL-2.0",
-    "url": "https://github.com/Nevuly/WSL2-Linux-Kernel-Rolling/releases/download/linux-wsl-stable-6.18.1/bzImage-x86_64",
-    "hash": "1519e2c2fbfc9c54afc2c2d1b6eb4bd570572a5af95658e5204a950cbf0513f7",
+    "url": "https://github.com/Nevuly/WSL2-Linux-Kernel-Rolling/releases/download/linux-wsl-stable-6.18.2/bzImage-x86_64",
+    "hash": "e4b91e1fbfdc91cda6d5351d0a9be373153e7c97f016f8cb334d3dcefc49dbd7",
     "post_install": "mv $dir/bzImage-x86_64 $dir/rolling-linux-kernel",
     "checkver": {
         "url": "https://github.com/Nevuly/WSL2-Linux-Kernel-Rolling/releases/latest",
